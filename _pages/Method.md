@@ -102,7 +102,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
-| <center>Marginalized Voronoi cloud</center>  | <center> z slices of the Voronoi cloud </center>  |
-|---|---|
-| <br/><br/> ![image-center](../assets/images/void_7_contours_avg_field.png){: style="width:100%" .align-center}  |  ![image-center](../assets/gifs/void_7_z_slices.gif){: style="width:94%" .align-center}
-
+![image-center](../assets/gifs/void_7_z_slices_withMarginal.gif){: style="width:100%" .align-center}
