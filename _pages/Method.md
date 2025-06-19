@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Clustering strategy
 
-The details of the clustering strategy are illustrated [here](/Clustering).
+The details of the clustering strategy are illustrated [here](Clustering.md).
 
 # Catalog
 
