@@ -1,7 +1,7 @@
 ---
 layout: splash
 classes: wide
-permalink: '/Clustering/'
+permalink: '/Method/Clustering/'
 
 title: Clustering strategy
 
