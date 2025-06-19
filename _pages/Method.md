@@ -61,7 +61,7 @@ Posterior distribution of void centers:
 ![image-center](../assets/gifs/voids_centers_KDE.gif){: style="width:70%" .align-center}
 
 Posterior distribution of void radii (few selected voids, full plot [here](RadiusPosterior.md))
-![image-center](../assets/gifs/radius_distribution.png){: style="width:70%" .align-center}
+![image-center](../assets/images/voids_radii_KDE_reduced.png){: style="width:100%" .align-center}
 
 Spherical approximation:
 ![image-center](../assets/gifs/all_voids_redshift_colorscale.gif){: style="width:80%" .align-center}
