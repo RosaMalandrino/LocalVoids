@@ -7,7 +7,7 @@ title: A catalog of high significance cosmic voids in the Local Universe
 
 header:
   overlay_image: /assets/images/test-header.png
-  caption: "Photo credit: [**Chris Wren and Kenn Brown/mondoworks**](https://unsplash.com)"
+  caption: "Photo credit: Chris Wren and Kenn Brown/mondoworks"
   actions:
     - label: "More Info"
       url: "https://unsplash.com"
@@ -19,15 +19,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### The money plot! I have to figure out how to embed it
 
-
-<div class="">
-    <iframe id="inlineFrameExample"
+<iframe id="inlineFrameExample"
     title="Inline Frame Example"
-    src="/assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
-    class="blah blah"
+    src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
     >
 </iframe>
-</div>
 
 
 
@@ -66,11 +62,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | <center>Marginalized Voronoi cloud</center>  | <center> z slices of the Voronoi cloud </center>  |
 |---|---|
 | <br/><br/> ![image-center](/assets/images/void_7_contours_avg_field.png){: style="width:100%" .align-center}  |  ![image-center](/assets/gifs/void_7_z_slices.gif){: style="width:94%" .align-center}
- |
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
+## Density template for the community to use
 
-# References
+
+### References
+
+- my paper
+- Manticore paper
+- others?
