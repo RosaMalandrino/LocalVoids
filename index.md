@@ -17,16 +17,20 @@ header:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### The money plot! I have to figure out how to embed it
+## Explore the voids in our Local Neighborhood
 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
-    width='1000'
-    height='800'
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<div>
+  <iframe id="allVoids"
+    title="Full catalog of voids"
+    src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe_forPaper.html"
+    width='1200'
+    height='1000'
+    frameborder='0'
     >
-</iframe>
-
+  </iframe>
+</div>
 
 
 
@@ -43,16 +47,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### Other interactive plot
 
-
-<div class="">
-    <iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    src="/assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
-    class="blah blah"
+<div>
+  <iframe id="exampleVoid"
+    title="Single void morphology"
+    src="/assets/html_files/void_7_Voronoi_cloud_N32_pmin0.38.html"
+    width='1200'
+    height='800'
+    frameborder='0'
     >
-</iframe>
+  </iframe>
 </div>
 
 
