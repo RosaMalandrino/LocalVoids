@@ -22,6 +22,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
     src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
+    width='1000'
+    height='800'
     >
 </iframe>
 
