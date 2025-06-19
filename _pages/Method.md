@@ -57,13 +57,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Posterior distribution of void centers:
-![image-center](/assets/gifs/voids_centers_KDE.gif){: style="width:70%" .align-center}
+![image-center](../assets/gifs/voids_centers_KDE.gif){: style="width:70%" .align-center}
 
 Posterior distribution of void radii (few selected voids, full plot [here](/RadiusPosterior))
-![image-center](/assets/gifs/radius_distribution.png){: style="width:70%" .align-center}
+![image-center](../assets/gifs/radius_distribution.png){: style="width:70%" .align-center}
 
 Spherical approximation:
-![image-center](/assets/gifs/all_voids_redshift_colorscale.gif){: style="width:80%" .align-center}
+![image-center](../assets/gifs/all_voids_redshift_colorscale.gif){: style="width:80%" .align-center}
 
 
 
