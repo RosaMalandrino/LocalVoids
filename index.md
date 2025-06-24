@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     title="Single void morphology"
     src="/assets/html_files/void_7_Voronoi_cloud_N32_pmin0.38.html"
     width='1200'
-    height='800'
+    height='1000'
     frameborder='0'
     >
   </iframe>
