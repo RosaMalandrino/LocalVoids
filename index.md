@@ -51,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div>
   <iframe id="exampleVoid"
     title="Single void morphology"
-    src="/assets/html_files/void_7_Voronoi_cloud_N32_pmin0.38.html"
+    src="/assets/html_files/void_7_Voronoi_cloud_N32_with_galaxies.html"
     width='1200'
     height='1000'
     frameborder='0'
@@ -78,6 +78,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### References
 
-- my paper
-- Manticore paper
-- others?
+Main paper
+
+McAlpine, S., Jasche, J., Ata, M., et al. 2025, <i> The Manticore Project I: a digital twin of our cosmic neighbourhood from Bayesian field-level analysis </i>
