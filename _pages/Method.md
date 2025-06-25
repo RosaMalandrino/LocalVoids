@@ -33,6 +33,7 @@ toc_icon: "cog"
 <br>
 
 
+<!-- 
 # Table of content test
 
 
@@ -45,7 +46,7 @@ toc_icon: "cog"
     - [**Truncation**](#truncation)
 - [**Validation**](#validation)
 
-
+-->
 
 
 # Data
@@ -57,7 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-| ![image-center](../assets/images/galaxies_noAxes.png){: style="height:500px" .align-left} | 🠊 | ![image-center](../assets/gifs/mcmc_field_full_box.gif){: style="height:550px" .align-right}
+| ![image-center](../assets/images/galaxies_noAxes.png){: style="height:480px" .align-left} |<span style="font-size: 50px"> 🠊 </span> | <br> ![image-center](../assets/gifs/mcmc_field_full_box.gif){: style="height:550px" .align-right}
 
 
 
@@ -113,8 +114,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Truncation
 
-| ![image-center](){: style="height:200px" .align-left} | ![image-center](){: style="height:200px" .align-center}
- | ![image-center](){: style="height:200px" .align-right}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+| Full cloud | Volume conservation | Void interior
+| :-: | :-: | :-:
+| ![image-center](../assets/images/cloud_7_0.0_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.38_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.71_small.png){: style="width:100%" .align-center}
 
 
 More details on the Voronoi clouds and their truncations can be found [here](VoronoiClouds.md)
@@ -122,12 +129,30 @@ More details on the Voronoi clouds and their truncations can be found [here](Vor
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+<div>
+  <iframe id="exampleVoid"
+    title="Single void morphology"
+    src="../assets/html_files/void_7_Voronoi_cloud_N32_with_galaxies.html"
+    width='1200'
+    height='1000'
+    frameborder='0'
+    >
+  </iframe>
+</div>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 
 # Validation
 
-$$f(x)=sin(x)$$
+<!-- $$f(x)=sin(x)$$ -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 ![image-center](../assets/gifs/void_7_z_slices_withMarginal.gif){: style="width:100%" .align-center}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

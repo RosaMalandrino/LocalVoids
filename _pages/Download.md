@@ -15,4 +15,8 @@ What can people use it for!
 
 ## Voronoi clouds on GitHub
 
-## Interactive notebook?
+Structure of the dataset and how to use it?
+
+## Interactive notebook
+
+Maybe in the future

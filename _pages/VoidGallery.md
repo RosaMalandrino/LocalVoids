@@ -13,6 +13,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Summary table of voids
 
-The full thing is too long, better start with the first selection
+Table 1 of the paper with the known voids only
 
 # Full table of voids
+
+Full table!

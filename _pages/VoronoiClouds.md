@@ -59,4 +59,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![image-center](../assets/images/volume_comparison.png){: style="width:100%" .align-center}
 
 
-![image-center](../assets/images/min_Voronoi_rate_vs_radius.png){: style="width:100%" .align-center}
+![image-center](../assets/images/min_Voronoi_rate_vs_radius_with_clouds.png){: style="width:100%" .align-center}
