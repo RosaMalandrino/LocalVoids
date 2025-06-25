@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div>
   <iframe id="allVoids"
     title="Full catalog of voids"
-    src="/assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
+    src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.38_wireframe.html"
     width='1200'
     height='1000'
     frameborder='0'
