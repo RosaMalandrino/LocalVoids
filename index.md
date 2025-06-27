@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <div>
   <iframe id="exampleVoid"
     title="Single void morphology"
-    src="assets/html_files/void_7_Voronoi_cloud_N32_with_galaxies.html"
+    src="VoidGallery/Void7/void_7_Voronoi_cloud_N32_with_galaxies.html"
     width='1200'
     height='1000'
     frameborder='0'
@@ -67,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-![image-center](/assets/gifs/void_7_z_slices_withMarginal.gif){: style="width:100%" .align-center}
+![image-center](/VoidGallery/Void7/void_7_slices_withMarginal.gif){: style="width:100%" .align-center}
 
 
 

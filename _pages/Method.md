@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Clustering strategy
 
-The details of the clustering strategy are illustrated [here](Clustering.md).
+The details of the clustering strategy are illustrated [here](Clustering.md){:target="_blank"}.
 
 # Catalog
 
@@ -96,7 +96,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Posterior distribution of void centers:
 ![image-center](../assets/gifs/voids_centers_KDE.gif){: style="width:70%" .align-center}
 
-Posterior distribution of void radii (few selected voids, full plot [here](RadiusPosterior.md))
+Posterior distribution of void radii (few selected voids, full plot [here](RadiusPosterior.md){:target="_blank"})
 ![image-center](../assets/images/voids_radii_KDE_reduced.png){: style="width:100%" .align-center}
 
 Spherical approximation:
@@ -124,7 +124,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 | ![image-center](../assets/images/cloud_7_0.0_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.38_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.71_small.png){: style="width:100%" .align-center}
 
 
-More details on the Voronoi clouds and their truncations can be found [here](VoronoiClouds.md)
+More details on the Voronoi clouds and their truncations can be found [here](VoronoiClouds.md){:target="_blank"}
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -147,7 +147,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Validation
 
-<!-- $$f(x)=sin(x)$$ -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
