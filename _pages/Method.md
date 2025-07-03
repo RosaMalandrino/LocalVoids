@@ -51,12 +51,12 @@ toc_icon: "cog"
 
 # The Manticore dataset
 
-To characterize the voids in our Local Neighborhood, we use the <tt>Manticore-Local</tt> posterior realizations of the large-scale structure, a set of constrained N-body simulations initialized to be consistent with the galaxy positions identified in the 2M++ data compilation ([Lavaux & Hudson, 2011](https://academic.oup.com/mnras/article/416/4/2840/975884){:target="_blank"}).
-Produced in the Bayesian framework of the <tt>BORG</tt> algorithm ([Jasche & Wandelt 2013](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"}), they represent 50 independent samples of the posterior distribution of the large-scale structure and allow us to carry out a complete statistical analysis of the voids. 
-A full description of the simulations can be found in [McAlpine et al. (2025)](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}, and in the dedicated [Manticore website](https://cosmictwin.org){:target="_blank"}.
+To characterize the voids in our Local Neighborhood, we use the <tt>Manticore-Local</tt> posterior realizations of the large-scale structure ([McAlpine et al., 2025](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}), a set of constrained N-body simulations initialized to be consistent with the galaxy positions identified in the 2M++ data compilation ([Lavaux & Hudson, 2011](https://academic.oup.com/mnras/article/416/4/2840/975884){:target="_blank"}).
+Produced in the Bayesian framework of the <tt>BORG</tt> algorithm ([Jasche & Wandelt, 2013](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"}), they represent 50 independent samples of the posterior distribution of the large-scale structure and allow us to carry out a complete statistical analysis of the voids. 
+A full description of the simulations can be found in [McAlpine et al. (2025)](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}, and in the dedicated [Manticore](https://cosmictwin.org){:target="_blank"} website.
 
 
-On the left we show the galaxy positions used for the inference, and on the right the corresponding set of 50 independent posterior realizations of halo distributions at present day. Stable structure can be recognized inside the dashed circle, corresponding to a $\approx 250 \, \text{Mpc}$ radius, i.e. the region where we observe galaxies. As there is no information to constrain the large-scale structure in the exterior part of the box, the density field is randomly distributed.
+On the left we show the galaxy positions used for the inference, and on the right the corresponding set of 50 independent posterior realizations of halo distributions at present day. Stable structure can be recognized inside the dashed circle, corresponding to a $\approx 250 \, \text{Mpc}$ radius, i.e. the region where we have observations of galaxies. As there is no information to constrain the large-scale structure in the exterior part of the box, the density field is randomly distributed in this region.
 
 | ![image-center](../assets/images/galaxies_noAxes.png){: style="height:480px" .align-left} |<span style="font-size: 50px"> 🠊 </span> | <br> ![image-center](../assets/gifs/mcmc_field_full_box.gif){: style="height:550px" .align-right}
 
@@ -136,7 +136,7 @@ Finally, we show a fully interactive plot of the Voronoi cloud of an example voi
 
 
 We compare our voids to the average of the 50 posterior realizations of the underlying halo field.
-In the left panel we marginalize the Voronoi cloud by summing its values over the $z$ direction. We plot the $0$ and $0.5$ contour levels of the renormalized marginal over a slab of the halo field with thickness equal to void radius. We find that the countours follow the density profiles. As this projection loses 3D information, on the right panel we show different slice in $z$, which highlight the relation between the void and its environment.
+In the left panel we marginalize the Voronoi cloud by summing its values over the $z$ direction. We plot the $0$ and $0.5$ contour levels of the renormalized marginal over a slab of the halo field with thickness equal to void radius. We find that the countours follow the density profiles. However, this 2D projection loses the full three-dimensional information: on the right panel we show different slice in $z$, which highlight the relation between the void and its environment.
 
 
 ![image-center](../VoidGallery/Void7/void_7_slices_withMarginal.gif){: style="width:100%" .align-center}
