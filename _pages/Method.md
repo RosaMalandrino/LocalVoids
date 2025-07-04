@@ -69,7 +69,7 @@ On the left we show the galaxy positions used for the inference, and on the righ
 
 We run the <tt>VIDE</tt> void finding algorithm ([Sutter et al. 2015](https://www.sciencedirect.com/science/article/pii/S2213133714000493?via%3Dihub){:target="_blank"}) on each individual realization of the cosmic web. The resulting voids have complex morphologies, but tehy can be summarized with a center and an effective radius. In the left panel we select voids with $r > 30 \ h^{-1} \, \text{Mpc}$, the crosses represent their centers and the circles correspond to their effective volumes. Despite some variations among different realizations, some regions of space are more likely to be identified as voids than others. The right panel shows a slice of the 3D space containing all void centers from all realizations. The member points of very identifyable clusters correspond to different samples of the same real void in the Universe.
 
-Identifying stable voids in the posterior realizations of the Universe reduces to a detection problem. We perform a posterior clustering analysis to identify high-signficance voids in the Universe. The details of the clustering strategy and the posterior distribution estimation are illustrated [here](Clustering.md){:target="_blank"}.
+Identifying stable voids in the posterior realizations of the Universe reduces to a detection problem. We perform a posterior clustering analysis to identify high-signficance voids in the Universe. The details of the clustering strategy and the posterior distribution estimation are illustrated [here](VoidClustering.md){:target="_blank"}.
 
 
 
@@ -101,7 +101,7 @@ The zone of avoidance of galaxy surveys corresponding to the galactic plane prod
 The <tt>VIDE</tt> void finder performs a Voronoi tessellation on the tracers of the density field and merges the resulting cells with a watershed transform. As a result, void morphologies are very complex. In the following gif, we show the individual contributions to a single statistical void: samples from different realizations are represented through circles corresponding to the Voronoi cells making an individual void, with the black cross and circle represent the mean and effective radii. Finally, the yellow star and circle represent the mean posterior of the center and radius, as infered from our clustering procedure.
 
 
-![image-center](../assets/gifs/void_7_VoronoiCells_avg_field.gif){: style="width:70%" .align-center}
+![image-center](../assets/gifs/void_10_VoronoiCells_avg_field.gif){: style="width:70%" .align-center}
 
 
 To characterize the shape of the void, we grid the space around the void center, and count how often a particular point is contained in a Voronoi cell. We define the Voronoi overlap rate, a quantity ranging from zero to one after appropriate normalization, which describes the environment around the void center. Higher values correspond to the most underdense part of the void, while lower values define to the boundaries. The left panel shows this function - which we name Voronoi cloud - overimposed to the sphere of effective volume. However, the volume of this cloud exceeds the statistical one, as the further outskirts are labeled as void only in a few realizations. Appropritate truncations of this cloud can yield the mean posterior volume (center panel) or probe the deeper interior of the void (right panel).
@@ -111,7 +111,7 @@ Further details on the Voronoi clouds and how we perform the truncation can be f
 
 | Full cloud | Volume conservation | Void interior
 | :-: | :-: | :-:
-| ![image-center](../assets/images/cloud_7_0.0_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.38_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_7_0.71_small.png){: style="width:100%" .align-center}
+| ![image-center](../assets/images/cloud_10_0.0_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_10_0.37_small.png){: style="width:100%" .align-center} | ![image-center](../assets/images/cloud_10_0.72_small.png){: style="width:100%" .align-center}
 
 
 Finally, we show a fully interactive plot of the Voronoi cloud of an example void, as well as the galaxies used in the inference. The spherical approximation loses information on the full shape of voids; conversely, the Voronoi cloud provides a well-defined template for underdense environments.
@@ -120,7 +120,7 @@ Finally, we show a fully interactive plot of the Voronoi cloud of an example voi
 <div>
   <iframe id="exampleVoid"
     title="Single void morphology"
-    src="../assets/html_files/void_7_Voronoi_cloud_N32_with_galaxies.html"
+    src="../assets/html_files/void_10_Voronoi_cloud_N32_with_galaxies.html"
     width='1200'
     height='1000'
     frameborder='0'
@@ -139,6 +139,6 @@ We compare our voids to the average of the 50 posterior realizations of the unde
 In the left panel we marginalize the Voronoi cloud by summing its values over the $z$ direction. We plot the $0$ and $0.5$ contour levels of the renormalized marginal over a slab of the halo field with thickness equal to void radius. We find that the countours follow the density profiles. However, this 2D projection loses the full three-dimensional information: on the right panel we show different slice in $z$, which highlight the relation between the void and its environment.
 
 
-![image-center](../VoidGallery/Void7/void_7_slices_withMarginal.gif){: style="width:100%" .align-center}
+![image-center](../VoidGallery/Void10/void_10_z_slices_withMarginal.gif){: style="width:100%" .align-center}
 
 
