@@ -21,7 +21,7 @@ title                    : "Cosmic voids in the Local Universe"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cosmic voids in the Local Universe"
-description              : "An amazing website."
+description              : "From the Manticore project"
 url                      : https://rosamalandrino.github.io/LocalVoids/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : / # the subpath of your site, e.g. "/blog"
 repository               : RosaMalandrino/LocalVoids # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

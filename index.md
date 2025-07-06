@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/test-header.png
   caption: "Photo credit: Chris Wren and Kenn Brown/mondoworks"
   actions:
-    - label: "Explore the voids"
+    - label: "Explore the voids in 3D"
       url: "assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html"
 
 ---
