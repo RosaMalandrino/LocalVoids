@@ -48,8 +48,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Pisces Void (Kirshner et al., 1981)](../LiteratureVoids/PiscesVoidKirshner+1981.html){:target="_blank"}
 
-[Perseus Void (Krumm et al., 1984)](../LiteratureVoids/PerseusVoidKrumm+1984.html){:target="_blank"}
-
 [Hydra Void (Willmer et al., 1995)](../LiteratureVoids/HydraVoidWillmer+1995.html){:target="_blank"}
 
 [Leo Void (Willmer et al., 1995)](../LiteratureVoids/LeoVoidWillmer+1995.html){:target="_blank"}

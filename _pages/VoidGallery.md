@@ -19,7 +19,7 @@ The "on halos" column show the relation between the void and the sorrounding wit
 
 
 
-| $\text{ID}$    | $ \alpha \, [\mathrm{hms}]$ |  $\delta \, [^\circ]$ |  $ d_c \, [h^{-1} \, \text{Mpc} ]$ | $\text{Void Name}$ | $z \ \text{range} \, [ \text{km s}^{-1} ]$ |  $\bar{r} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{x} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{y} \, [h^{-1} \, \text{Mpc} ]$ | $\bar{z} \, [ h^{-1} \, \text{Mpc} ]$ | $\text{On halos}$ | $\text{3D shape}$ |
+| $\text{ID}$    | $ \alpha \, [\mathrm{hms}]$ |  $\delta \, [^\circ]$ |  $ d_c \, [h^{-1} \, \text{Mpc} ]$ | $\text{Void Match}$ | $z \ \text{range} \, [ \text{km s}^{-1} ]$ |  $\bar{r} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{x} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{y} \, [h^{-1} \, \text{Mpc} ]$ | $\bar{z} \, [ h^{-1} \, \text{Mpc} ]$ | $\text{On halos}$ | $\text{3D shape}$ |
 |-:|:-:|-:|:-:|:-:|-:|:-:|:-:|:-:|:-:| :-: | :-: |
 $ 10 $ | $ 18^\text{h}05^\text{m}$ | $ -16.2$ | $ 38.8$ | Local | $ 500 - 7 \, 300 $ | $33.9 \pm 3.0$ | $341.3 \pm 4.9$ | $303.2 \pm 3.4$ | $329.7 \pm 3.5$  | [ Void 10](../VoidGallery/Void10/void_10_z_slices_withMarginal.gif){:target="_blank"} | [ Void 10](../VoidGallery/Void10/void_10_Voronoi_cloud_N32_with_galaxies.html){:target="_blank"}
 $ 75 $ | $ 00^\text{h}52^\text{m}$ | $ 43.9$ | $ 33.0$ | Local | $ 1 \, 500 - 5 \, 100 $ | $18.0 \pm 2.0$ | $363.7 \pm 3.6$ | $345.8 \pm 2.1$ | $363.4 \pm 3.7$  | [ Void 75](../VoidGallery/Void75/void_75_z_slices_withMarginal.gif){:target="_blank"} | [ Void 75](../VoidGallery/Void75/void_75_Voronoi_cloud_N32_with_galaxies.html){:target="_blank"}
@@ -39,7 +39,7 @@ $ 28 $ | $ 10^\text{h}59^\text{m}$ | $ 2.8$ | $ 43.6$ | Leo | $ 2 \, 300 - 6 \, 
 
 # Full table of voids
 
-Complete information on the full catalog. An extended version of this table is provided in the downloadable material.
+Complete information on the full catalog. An extended version of this table is provided in the material to [download](Download.md){:target="_blank"}.
 
 
 | $\text{ID}$    | $ \alpha \, [\mathrm{hms}]$ |  $\delta \, [^\circ]$ |  $ d_c \, [h^{-1} \, \text{Mpc} ]$ | $z \ \text{range} $ | $z \ \text{range}  \, [ \text{km s}^{-1} ]$ |  $\bar{r} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{x} \, [ h^{-1} \, \text{Mpc} ]$ | $\bar{y} \, [h^{-1} \, \text{Mpc} ]$ | $\bar{z} \, [ h^{-1} \, \text{Mpc} ]$ | $\text{On halos}$ | $\text{3D shape}$ |

@@ -9,13 +9,20 @@ title: Get the data!
 
 <br>
 
-## We encourage to use the catalog!
+## We encourage researchers from different fields in astronomy to make use of this catalog!
 
-What can people use it for!
 
-## Voronoi clouds on GitHub
+Our catalog provides voids with well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need characterization of the density environment.This includes galaxy properties and their evolution, galaxy biasing, supernovae and their use for Hubble constant measurements, and high-energy astrophysics, such as black holes and AGN in voids.
 
-Structure of the dataset and how to use it?
+
+
+<b> Download the data at the following [link](https://github.com/RosaMalandrino/LocalVoids/){:target="_blank"}, where we provide all the information on how to use it </b>
+
+
+
+
+Please cite this work.
+
 
 <!-- 
 ## Interactive notebook
