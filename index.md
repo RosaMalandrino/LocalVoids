@@ -57,7 +57,7 @@ Our method allows to bypass some of the challenges of direct detection of voids 
 ## Precise characterization of void morphology and its relationship with the environment
 
 Understanding the complex morphology of voids is crucial to study many astrophysical objects whose properties depend on the density environment.
-We provide a full description of the void shape in terms of a function we name Voronoi cloud, where higher values correspond the to innermost part of voids. A more detailed description can be found in the [Method](_pages/Method.md){:target="_blank"} section.
+We provide a full description of the void shape in terms of a function we name Voronoi cloud, where higher values correspond the to innermost part of voids. A more detailed description can be found in the [Method](_pages/Method.md){:target="_blank"} section. **You can zoom in and move the void around!**
 
 <div>
   <iframe id="exampleVoid"

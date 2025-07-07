@@ -14,7 +14,7 @@ title: Summary of the void properties
 
 We present a summary table with a few known voids matching other accounts in the literature. <br>
 The first 4 columns represent the coordinates of the center in the sky, in terms of equatorial coordinates and distance. The fourth column mentions the name of the matches we find in the literature, often corresponding to the constellation located in the direction of the void. Column 5 represents the redshift range from the nearest to the farther edge of the void along the line of sight, assuming the effective radius as isotropic size. Columns 6-8 represent summary properties of the posterior distributions for the effective radius and the center position, using the mean and standard deviation. In our cartesian coordinates system the observer is located at $[340.5, 340.5, 340.5] \, h^{−1} \, \text{Mpc}$, with the xy plane corresponding to the equatorial plane, and the $\hat{z}$ axis pointing to the equatorial North Pole. <br>
-The "on halos" column show the relation between the void and the sorrounding with the density environement, while the last column shows the 3D shape of voids. The outer part of the box where there are no galaxies to constrain the density field are rendered opaque in the projected plots.
+The "on halos" column show the relation between the void and the surrounding with the density environment, while the last column shows the 3D shape of voids. The outer part of the box where there are no galaxies to constrain the density field are rendered opaque in the projected plots.
 
 
 

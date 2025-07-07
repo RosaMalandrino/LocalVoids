@@ -21,7 +21,7 @@ In order to separate differently sized voids that might happen to co-occur due t
 
 
 We employ the [<tt>AgglomerativeClustering</tt>](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.AgglomerativeClustering.html){:target="_blank"} algorithm implemented in <tt>scikit-learn</tt> package. At the first iteration every point belongs to its own cluster. Then clusters are progressively merged in order to minimize the variance, until a stopping criterion is reached. 
-We choose the center of the radius bin as the threshold length, which enforces that the centers of voids should not be farther away from each other than their average radius. This will guarantee that voids in a cluster overlap spatially. An illustration of thisclustering algoritm can be found [here](https://cdn-images-1.medium.com/v2/resize:fit:640/1*ET8kCcPpr893vNZFs8j4xg.gif){:target="_blank"}
+We choose the center of the radius bin as the threshold length, which enforces that the centers of voids should not be farther away from each other than their average radius. This will guarantee that voids in a cluster overlap spatially. An illustration of this clustering algorithm can be found [here](https://cdn-images-1.medium.com/v2/resize:fit:640/1*ET8kCcPpr893vNZFs8j4xg.gif){:target="_blank"}
 
 
 ## Spurious clusters
@@ -38,7 +38,7 @@ The figure below shows void centers in different radius bins:
 * The center panel shows middle sized voids, with $20 \, h^{-1} \, \text{Mpc} < r < 35 \, h^{-1} \, \text{Mpc}$. The distribution of radii peaks in this region, and clusters of many elements have a non-negligible probability of occurring by chance.
 * The left panel shows the smallest voids, with $5 \, h^{-1} \, \text{Mpc} < r < 20 \, h^{-1} \, \text{Mpc}$. There are fewer voids than in the central panel, but the density of points is still high enough to make random clusters likely.
 
-We run the same clustering algorithm on the outside box and count the occurrence of clusters of $n$ points. This corrispond to a Poisson process quantifying the probability of having $n - 1$ excess points in the neighborhood of each void centers. The following panel shows the dependence with radius bin. For each bin we select an acceptance threshold $n_{th}$ such as the probability of having a cluster that numerous by pure chance is $6 \times 10^{-7}$, corresponding to the $5\sigma$ detection threshold.
+We run the same clustering algorithm on the outside box and count the occurrence of clusters of $n$ points. This correspond to a Poisson process quantifying the probability of having $n - 1$ excess points in the neighborhood of each void centers. The following panel shows the dependence with radius bin. For each bin we select an acceptance threshold $n_{th}$ such as the probability of having a cluster that numerous by pure chance is $6 \times 10^{-7}$, corresponding to the $5\sigma$ detection threshold.
 
 
 ![image-center](../assets/clustering/Poisson_clusters.png){: .align-center}
@@ -51,11 +51,11 @@ We run the same clustering algorithm on the outside box and count the occurrence
 In addition to the detection of regions in our Local Universe that represent true voids, we are interested in probing the underlying probability distribution of their properties. Unfortunately, the width of the bins used in the clustering algorithm is an arbitrary choice that affects the voids we actually compare, impacting the estimated variance of the radius probability distribution we would infer from them. Moreover, for a given choice of bin width, the position of the edges may split a significant cluster, where members of the same true void get grouped into two different clusters that do not pass the significance test individually.
 In order to overcome these issues, we employ a continuous binning strategy, illustrated with the following toy model.
 
-Let us consider a true void in the Universe: our goal is to infer the true underlying proability distribution of radius and position. We can draw samples from the probability distribution, which will create some scatter around the mean center. We assume a Gaussian for simplicity, but the distribution can have any shape.
+Let us consider a true void in the Universe: our goal is to infer the true underlying probability distribution of radius and position. We can draw samples from the probability distribution, which will create some scatter around the mean center. We assume a Gaussian for simplicity, but the distribution can have any shape.
 
 ![image-center](../assets/moving_bins/true_void.png){: .align-center}
 
-As previously mentioned, posterior realizations have some statistical fluctions, and the void finder can respond to that by generating different voids. This result in nuisance voids appearing by accident in the same region of space. We can represent them as smaller voids in he vicinity of the true void.
+As previously mentioned, posterior realizations have some statistical fluctuations, and the void finder can respond to that by generating different voids. This result in nuisance voids appearing by accident in the same region of space. We can represent them as smaller voids in he vicinity of the true void.
 
 ![image-center](../assets/moving_bins/true_void_with_extra_points.png){: .align-center}
 
@@ -74,7 +74,7 @@ This procedure produces a list of independent voids from different halo field re
 ![image-center](../assets/moving_bins/KDE_all_points.png){: .align-center}
 
 
-The shape of the inferred probability distribution presents some differences from the ground truth, but their means and standard deviations (represented with the error bars on the top) show a good match. Finally, the plot below shows that spurious points are overall avoided by theis procedure; if they are close to the tails of the distribution they might still be included without distorting too much the inferred posterior.
+The shape of the inferred probability distribution presents some differences from the ground truth, but their means and standard deviations (represented with the error bars on the top) show a good match. Finally, the plot below shows that spurious points are overall avoided by this procedure; if they are close to the tails of the distribution they might still be included without distorting too much the inferred posterior.
 
 
 ![image-center](../assets/moving_bins/KDE_true_void.png){: .align-center}
