@@ -51,8 +51,8 @@ toc_icon: "cog"
 
 # The Manticore dataset
 
-To characterize the voids in our Local Neighborhood, we use the <tt>Manticore-Local</tt> posterior realizations of the large-scale structure ([McAlpine et al., 2025](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}), a set of constrained N-body simulations initialized to be consistent with the galaxy positions identified in the 2M++ data compilation ([Lavaux & Hudson, 2011](https://academic.oup.com/mnras/article/416/4/2840/975884){:target="_blank"}).
-Produced in the Bayesian framework of the <tt>BORG</tt> algorithm ([Jasche & Wandelt, 2013](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"}), they represent 50 independent samples of the posterior distribution of the large-scale structure and allow us to carry out a complete statistical analysis of the voids. 
+To characterize the voids in our Local Neighborhood, we use the ```Manticore-Local``` posterior realizations of the large-scale structure ([McAlpine et al., 2025](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}), a set of constrained N-body simulations initialized to be consistent with the galaxy positions identified in the 2M++ data compilation ([Lavaux & Hudson, 2011](https://academic.oup.com/mnras/article/416/4/2840/975884){:target="_blank"}).
+Produced in the Bayesian framework of the ```BORG``` algorithm ([Jasche & Wandelt, 2013](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"}), they represent 50 independent samples of the posterior distribution of the large-scale structure and allow us to carry out a complete statistical analysis of the voids. 
 A full description of the simulations can be found in [McAlpine et al. (2025)](https://academic.oup.com/mnras/article/540/1/716/8128029?login=false){:target="_blank"}, and in the dedicated [Manticore](https://cosmictwin.org){:target="_blank"} website.
 
 
@@ -98,7 +98,7 @@ The zone of avoidance of galaxy surveys corresponding to the galactic plane prod
 
 # The actual shape of voids
 
-The <tt>VIDE</tt> void finder performs a Voronoi tessellation on the tracers of the density field and merges the resulting cells with a watershed transform. As a result, void morphologies are very complex. In the following gif, we show the individual contributions to a single statistical void: samples from different realizations are represented through circles corresponding to the Voronoi cells making an individual void, with the black cross and circle represent the mean and effective radii. Finally, the yellow star and circle represent the mean posterior of the center and radius, as inferred from our clustering procedure.
+The ```VIDE``` void finder performs a Voronoi tessellation on the tracers of the density field and merges the resulting cells with a watershed transform. As a result, void morphologies are very complex. In the following gif, we show the individual contributions to a single statistical void: samples from different realizations are represented through circles corresponding to the Voronoi cells making an individual void, with the black cross and circle represent the mean and effective radii. Finally, the yellow star and circle represent the mean posterior of the center and radius, as inferred from our clustering procedure.
 
 
 ![image-center](../assets/gifs/void_10_VoronoiCells_avg_field.gif){: style="width:70%" .align-center}

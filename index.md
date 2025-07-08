@@ -21,10 +21,10 @@ header:
 
 
 We present a new method to identify cosmic voids in the Local Universe from galaxy surveys, and to assess their statistical significance.
-Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of voids that are real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys. 
+Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys. 
 Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment. The Bayesian nature of this framework provides us with a rigorous estimation of statistical uncertainties, producing high-quality data products for the community. <br>
 
-Our catalog of 100 cosmic voids is presented. Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of this plot.
+Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of our catalog!
 
 
 
@@ -48,7 +48,7 @@ Our catalog of 100 cosmic voids is presented. Click [here](assets/html_files/all
 
 ## Reconstructing cosmic structure from incomplete observations of the sky
 
-Our method allows to bypass some of the challenges of direct detection of voids from galaxy surveys, such as holes in the mask or magnitude selection. The <tt>BORG</tt> [algorithm](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"} running at the core of the posterior simulations is able to reconstruct structures from incomplete data, providing predictions in unobserved regions such as behind the galactic plane. We are able to provide a precise characterization of voids in these difficult locations.
+Our method allows to bypass some of the challenges of direct detection of voids from galaxy surveys, such as holes in the mask or magnitude selection. The ```BORG``` [algorithm](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"} running at the core of the posterior simulations is able to reconstruct structures from incomplete data, providing predictions in unobserved regions such as the galactic plane, and enabling us to provide a precise characterization of these masked voids.
 
 ![image-right](/assets/gifs/voids_on_the_sky_galCoord.gif){: .align-center}
 
@@ -84,7 +84,7 @@ Our probabilistic detection of voids perfectly matches the underlying halo field
 
 ### References
 
-* This work <br>
+* A Bayesian catalog of 100 high-significance voids in the Local Universe <br>
 <b> R. Malandrino, G. Lavaux, B. D. Wandelt, S. McAlpine, J. Jasche </b> <br>
 <i> (in prep.) </i>
 

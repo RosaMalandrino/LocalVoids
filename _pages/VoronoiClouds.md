@@ -12,7 +12,7 @@ title: Voronoi Clouds
 # Voronoi clouds
 
 
-The <tt>VIDE</tt> void finder performs a Voronoi tessellation on the tracers of the density field and merges the resulting cells with a watershed transform. As a result, void morphologies are very complex. In the following gif, we show the individual contributions to a single statistical void: samples from different realizations are represented through circles corresponding to the Voronoi cells making an individual void, with the black cross and circle represent the mean and effective radii. Finally, the yellow star and circle represent the mean posterior of the center and radius, as inferred from our clustering procedure.
+The ```VIDE``` void finder performs a Voronoi tessellation on the tracers of the density field and merges the resulting cells with a watershed transform. As a result, void morphologies are very complex. In the following gif, we show the individual contributions to a single statistical void: samples from different realizations are represented through circles corresponding to the Voronoi cells making an individual void, with the black cross and circle represent the mean and effective radii. Finally, the yellow star and circle represent the mean posterior of the center and radius, as inferred from our clustering procedure.
 
 ![image-center](../assets/gifs/void_10_VoronoiCells_avg_field.gif){: style="width:70%" .align-center}
 

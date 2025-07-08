@@ -16,12 +16,12 @@ Our catalog provides voids with well-defined centers, shapes, and boundaries, ma
 
 
 
-<b> Download the data at the following [link](https://github.com/RosaMalandrino/LocalVoids/){:target="_blank"}, where we provide all the information on how to use it </b>
+<b> Download the data at the following [link](https://github.com/RosaMalandrino/LocalVoids/){:target="_blank"}, where we provide all the information on how to use it. </b>
 
 
 
 
-Please cite this work.
+Please cite this work and Manticore.
 
 
 <!-- 

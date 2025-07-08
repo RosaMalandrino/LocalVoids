@@ -20,7 +20,7 @@ In order to separate differently sized voids that might happen to co-occur due t
 
 
 
-We employ the [<tt>AgglomerativeClustering</tt>](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.AgglomerativeClustering.html){:target="_blank"} algorithm implemented in <tt>scikit-learn</tt> package. At the first iteration every point belongs to its own cluster. Then clusters are progressively merged in order to minimize the variance, until a stopping criterion is reached. 
+We employ the [```AgglomerativeClustering```](https://scikit-learn.org/dev/modules/generated/sklearn.cluster.AgglomerativeClustering.html){:target="_blank"} algorithm implemented in ```scikit-learn``` package. At the first iteration every point belongs to its own cluster. Then clusters are progressively merged in order to minimize the variance, until a stopping criterion is reached. 
 We choose the center of the radius bin as the threshold length, which enforces that the centers of voids should not be farther away from each other than their average radius. This will guarantee that voids in a cluster overlap spatially. An illustration of this clustering algorithm can be found [here](https://cdn-images-1.medium.com/v2/resize:fit:640/1*ET8kCcPpr893vNZFs8j4xg.gif){:target="_blank"}
 
 
