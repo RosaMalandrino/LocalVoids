@@ -1,6 +1,6 @@
 # A Bayesian catalog of 100 high-significance cosmic voids in the Local Universe
 
-We present the catalog obtained with the method described in [](){:target="_blank"} and in the dedicated [website](https://voids.cosmictwin.org){:target="_blank"}.
+We present the catalog obtained with the method described in [TBD]() and in the dedicated [website](https://voids.cosmictwin.org).
 
 
 
