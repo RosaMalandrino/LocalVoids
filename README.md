@@ -66,7 +66,7 @@ with:
 
 The files contain the full untruncated Voronoi clouds, including the outskirts. We recommend to fix a threshold ```th``` and subsample the cloud as ```VoroCloud[:, 3]>th```.
 
-In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim 80%$ of the radius, choose ```th = 0.72```.
+In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim$ 80% of the radius, choose ```th = 0.72```.
 
 Find the threshold that works best for you! In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```truncation_vs_radius.npy``` array:
 
@@ -80,7 +80,7 @@ with ```thresholds.shape = (100)```. The index ```i``` represent 100 times ```th
 
 ## Global Voronoi cloud
 
-We provide the global Voronoi clouds, obtained by painting the individual cloud on a $64^3$ grid with resolution of $$. TDespite the lower resolution, this dataset contains information on the interplay between voids.
+We provide the global Voronoi clouds, obtained by painting the individual cloud on a $64^3$ grid with resolution of $7.4 h^{-1} \ \text{Mpc}$. TDespite the lower resolution, this dataset contains information on the interplay between voids.
 ```
 VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')
 ```
