@@ -29,10 +29,30 @@ This table can be already used as a first approximation of the full void catalog
 
 ## Shape of voids
 
-The ```VoronoiClouds/``` directory presents the probability clouds of each individual void. Each file, named ```Voronoi_cloud_void_i_N32.npy```, contains the information of a $32^3$ grid with size equal to $4 \times R_\text{void}$, with $R_\text{void}$ the statistical radius of the void obtained from the mean posterior. The array has shape ```[32**3,4]```, and it is organized as follows:
+The ```VoronoiClouds/``` directory presents the probability clouds of each individual void. Each file, named ```Voronoi_cloud_void_i_N32.npy```, contains the information of a $32^3$ grid with size equal to $4 \times R_\text{void}$, with $R_\text{void}$ the statistical radius of the void obtained from the mean posterior.
+You can load them in a dictionary with the following lines:
 
-- columns ```[:,:3]``` represent the (x,y,z) coordinates of the grid
-- columns ```[:, 3]``` represents the value of the Voronoi overlap rate in that position.
+```
+import numpy as np
+VoroClouds = {i:np.load(f'VoronoiClouds/Voronoi_cloud_void_{i}_N32.npy') for i in range(100)}
+
+```
+
+Each individual cloud:
+
+```
+VoroCloud = VoroClouds[0]
+VoroClouds.shape
+
+```
+((32768, 4))
+
+The information is:
+
+- ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid
+- ```VoroCloud[:, 3]``` represents the value of the Voronoi overlap rate in that position.
+
+
 
 The files contain the full untruncated Voronoi clouds, including the outskirts. We recommend to fix a threshold ```th``` and subsample the cloud as ```[:, 3]>th```.
 
