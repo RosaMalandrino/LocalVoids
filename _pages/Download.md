@@ -19,6 +19,7 @@ Our voids have well-defined centers, shapes, and boundaries, making the catalog 
 
 ## We encourage researchers from different fields in astronomy to use these voids for their works!
 
+<br>
 
 <span style="color:white"> Enough text to make the button center: aaaaaaa </span>[<span style="font-size: 30px"> Download the catalog </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}<span style="color:white"> Enough text to make the button center: aaaaaaa </span>
 
