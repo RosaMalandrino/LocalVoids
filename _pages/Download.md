@@ -9,7 +9,7 @@ title: Download
 
 <br>
 
-## Make use of this catalog!
+## Get the catalog
 
 
 A precise characterization of the density environment is fundamental for many astrophysical applications, including galaxy properties and their evolution, galaxy biasing, supernovae and their use for Hubble constant measurements, and high-energy astrophysics, such as black holes and AGN in voids.
@@ -17,7 +17,7 @@ A precise characterization of the density environment is fundamental for many as
 Produced in a Bayesian framework, our catalog overcomes observational challenges, describing real structures in the Universe, and providing a rigorous estimation of statistical uncertainties.
 Our voids have well-defined centers, shapes, and boundaries, making the catalog precise and practical to use to study the underdense regions of the Universe.
 
-## We encourage researchers from different fields in astronomy to use these voids for their works
+## We encourage researchers from different fields in astronomy to use these voids for their works!
 
 
 <span style="color:white"> Enough text to make the button center: aaaaaaa </span>[<span style="font-size: 30px"> Download the catalog </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}<span style="color:white"> Enough text to make the button center: aaaaaaa </span>
