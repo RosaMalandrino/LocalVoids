@@ -32,34 +32,33 @@ This table can be already used as a first approximation of the full void catalog
 
 ## Shape of voids
 
-The ```VoronoiClouds/``` directory presents the probability clouds of each individual void. Each file, named ```Voronoi_cloud_void_i_N32.npy```, contains the information of a $32^3$ grid with size equal to $4 \times R_\text{void}$, with $R_\text{void}$ the statistical radius of the void obtained from the mean posterior.
-You can load them in a dictionary with the following lines:
+The ```VoronoiClouds/``` directory presents the shape of each individual void, represented as a Voronoi cloud. Each file, named ```Voronoi_cloud_void_i_N32.npy```, contains the information of a $32^3$ grid with size equal to $4 \times R_\text{void}$, with $R_\text{void}$ the statistical radius of the void obtained from the mean posterior.
+You can load them all in a dictionary with the following lines:
 
 ```
 import numpy as np
 VoroClouds = {i:np.load(f'VoronoiClouds/Voronoi_cloud_void_{i}_N32.npy') for i in range(100)}
 ```
 
-The i-th cloud can be accessed with the corresponding key, e.g. cloud #0:
+The i-th cloud can be accessed with the corresponding key, e.g. for cloud #0:
 
 ```
 VoroCloud = VoroClouds[0]
-VoroCloud.shape
 ```
 with ```VoroCloud.shape = (32768, 4)```
-The information is:
+The columns are:
 
-- ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid;
+- ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the points on the grid;
 - ```VoroCloud[:, 3]``` represents the value of the Voronoi overlap rate in that position.
 
-In order to reconstruct the grid shape:
+It is possible to reconstruct the grid shape as:
 
 ```
 VoroCloud_Grid = np.reshape(VoroCloud, (32,32,32,4))
 ```
 
 with:
-- ```VoroCloud_Grid[:,:,:,0]```, ```VoroCloud_Grid[:,:,:,1]```, ```VoroCloud_Grid[:,:,:,2]``` are the x, y, z mesh coordinates of the 3D grid;
+- ```VoroCloud_Grid[:,:,:,0]```, ```VoroCloud_Grid[:,:,:,1]```, ```VoroCloud_Grid[:,:,:,2]``` the x, y, z mesh coordinates of the 3D grid;
 - ```VoroCloud_Grid[:,:,:,3]``` is the Voronoi overlap on the 3D grid.
 
 
@@ -68,7 +67,9 @@ The files contain the full untruncated Voronoi clouds, including the outskirts. 
 
 In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim$ 80% of the radius, choose ```th = 0.72```.
 
-Find the threshold that works best for you! In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```truncation_vs_radius.npy``` array:
+<b> You can experiment and find the threshold that works best for your purposes! </b>
+
+In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```truncation_vs_radius.npy``` array:
 
 ```
 thresholds = np.load('truncation_vs_radius.npy')
@@ -85,7 +86,7 @@ We provide the global Voronoi clouds, obtained by painting the individual cloud 
 VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')
 ```
 
-with ```VoroCloudAll.shape = (262144, 4)```
+with ```VoroCloudAll.shape = (262144, 4)``` and ```VoroCloudAll[:,3]>0.37``` as the truncation that preserves the volume of all voids.
 
 The information is organized in the same way as the individual clouds, with the possibility to reconstruct the grid as:
 
