@@ -6,11 +6,11 @@ title: Mapping high-significance cosmic voids in the Local Universe
 
 
 header:
-  overlay_image: /assets/images/test-header.png
+  overlay_image: /assets/images/voids-header.png
   caption: "Photo credit: Chris Wren and Kenn Brown/mondoworks"
   actions:
     - label: "Explore the voids in 3D"
-      url: "assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html"
+      url: "AllVoids/AllVoidsVoronoiCloud.html"
 
 ---
 
@@ -24,7 +24,7 @@ We present a new method to identify cosmic voids in the Local Universe from gala
 Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys. 
 Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment. The Bayesian nature of this framework provides us with a rigorous estimation of statistical uncertainties, producing high-quality data products for the community. <br>
 
-Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of our catalog!
+Click [here](AllVoids/AllVoidsVoronoiCloud.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of our catalog!
 
 
 
@@ -33,7 +33,7 @@ Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.ht
 <div>
   <iframe id="allVoids"
     title="Full catalog of voids"
-    src="assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.html"
+    src="AllVoids/AllVoids.html"
     width='1200'
     height='900'
     frameborder='0'
@@ -42,7 +42,7 @@ Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.ht
 </div>
 -->
 
-![image-right](/assets/images/all_clouds.png){: .align-center}
+![image-right](/AllVoids/AllClouds.png){: .align-center}
 
 
 
@@ -50,7 +50,7 @@ Click [here](assets/html_files/all_voids_Voronoi_cloud_N64_pmin0.37_wireframe.ht
 
 Our method allows to bypass some of the challenges of direct detection of voids from galaxy surveys, such as holes in the mask or magnitude selection. The ```BORG``` [algorithm](https://academic.oup.com/mnras/article/432/2/894/1020272){:target="_blank"} running at the core of the posterior simulations is able to reconstruct structures from incomplete data, providing predictions in unobserved regions such as the galactic plane, and enabling us to provide a precise characterization of these masked voids.
 
-![image-right](/assets/gifs/voids_on_the_sky_galCoord.gif){: .align-center}
+![image-right](/AllVoids/VoidsGalacticCoord.gif){: .align-center}
 
 
 

@@ -9,4 +9,4 @@ title: Reconstructed posterior distribution for void radii
 <br>
 
 
-![image-center](../assets/images/voids_radii_KDE.png){: .align-center}
+![image-center](../AllVoids/VoidsRadiiKDE.png){: .align-center}
