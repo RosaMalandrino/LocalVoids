@@ -35,15 +35,13 @@ You can load them in a dictionary with the following lines:
 ```
 import numpy as np
 VoroClouds = {i:np.load(f'VoronoiClouds/Voronoi_cloud_void_{i}_N32.npy') for i in range(100)}
-
 ```
 
 Each individual cloud:
 
 ```
 VoroCloud = VoroClouds[0]
-VoroClouds.shape
-
+VoroCloud.shape
 ```
 ((32768, 4))
 
@@ -52,13 +50,23 @@ The information is:
 - ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid
 - ```VoroCloud[:, 3]``` represents the value of the Voronoi overlap rate in that position.
 
+In order to reconstruct the grid shape:
+
+```
+VoroCloud_Grid = np.reshape(VoroCloud, (32,32,32,4))
+```
+
+with:
+- ```VoroCloud_Grid[:,:,:,0]```, ```VoroCloud_Grid[:,:,:,1]```, ```VoroCloud_Grid[:,:,:,2]``` are the x, y, z mesh coordinates of the 3D grid;
+- ```VoroCloud_Grid[:,:,:,3]``` is the Voronoi overlap on the 3D grid.
 
 
-The files contain the full untruncated Voronoi clouds, including the outskirts. We recommend to fix a threshold ```th``` and subsample the cloud as ```[:, 3]>th```.
+
+The files contain the full untruncated Voronoi clouds, including the outskirts. We recommend to fix a threshold ```th``` and subsample the cloud as ```VoroCloud[:, 3]>th```.
 
 In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim 80/%$ of the radius, choose ```th = 0.72```.
 
 Find the threshold that works best for you! In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```name``` array, where the index ```i``` represent ```100*th```, and ```v[i]``` the resulting radius ratio.
 
-[include image here]
+![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/assets/images/min_Voronoi_rate_vs_radius_with_clouds.png)]
 
