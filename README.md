@@ -1,12 +1,15 @@
-# A Bayesian catalog of 100 high-significance cosmic voids in the Local Universe
+# A Bayesian catalog of 100 high-significance voids in the Local Universe
 
-We present the catalog obtained with the method described in [TBD]() and in the dedicated [website](https://voids.cosmictwin.org).
+We present the catalog of 100 cosmic voids obtained with the method described in [TBD]() and in the dedicated [website](https://voids.cosmictwin.org).
 
+Produced in the Bayesian framework of the [Manticore project](https://cosmictwin.org), we are able to precisely characterize our Local Neighborhood, producing a void catalog matching real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys.  
+Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment (e.g. galaxy properties and their evolution, galaxy biasing, supernovae, and high-energy astrophysics).
+The Bayesian nature of this framework provides us with a rigorous estimation of statistical uncertainties, producing high-quality data products for the community. 
 
 
 ## Summary features
 
-The main features of the catalog are summarized in the ```voids_catalog.csv``` table. You can use ```pandas``` to read it:
+The main features of the catalog are summarized in the ```voids_catalog.csv``` table. You can use the ```pandas``` library to read it and analyze it:
 
 ```
 import pandas as pd
@@ -46,7 +49,7 @@ VoroCloud.shape
 with ```VoroCloud.shape = (32768, 4)```
 The information is:
 
-- ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid
+- ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid;
 - ```VoroCloud[:, 3]``` represents the value of the Voronoi overlap rate in that position.
 
 In order to reconstruct the grid shape:
@@ -70,8 +73,27 @@ Find the threshold that works best for you! In the plot below we present the tru
 ```
 thresholds = np.load('truncation_vs_radius.npy')
 ```
+with ```thresholds.shape = (100)```. The index ```i``` represent 100 times ```th```, e.g. ```thresholds[37]```  gives access to the radius obtained with the 0.37 truncation level.
 
-where the index ```i``` represent 100*```th```, and ```threhsolds[i]``` (e.g. ```threhsolds[37] = 1.```)
+![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/assets/images/min_Voronoi_rate_vs_radius_with_clouds.png)
 
-![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/assets/images/min_Voronoi_rate_vs_radius_with_clouds.png)]
+
+## Global Voronoi cloud
+
+We provide the global Voronoi clouds, obtained by painting the individual cloud on a $64^3$ grid with resolution of $$. TDespite the lower resolution, this dataset contains information on the interplay between voids.
+```
+VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')```
+
+with ```VoroCloudAll.shape = (262144, 4)```
+
+The information is organized in the same way as the individual clouds, with:
+
+- ```VoroCloudAll[:,:3]``` represent the (x,y,z) coordinates of the grid;
+- ```VoroCloudAll[:, 3]``` represents the value of the Voronoi overlap rate in that position.
+
+To reconstruct the grid:
+
+```
+VoroCloudAll_Grid = np.reshape(VoroCloudAll, (64,64,64,4))
+```
 
