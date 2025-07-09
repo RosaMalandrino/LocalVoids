@@ -82,7 +82,8 @@ with ```thresholds.shape = (100)```. The index ```i``` represent 100 times ```th
 
 We provide the global Voronoi clouds, obtained by painting the individual cloud on a $64^3$ grid with resolution of $$. TDespite the lower resolution, this dataset contains information on the interplay between voids.
 ```
-VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')```
+VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')
+```
 
 with ```VoroCloudAll.shape = (262144, 4)```
 
