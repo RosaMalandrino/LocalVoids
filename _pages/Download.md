@@ -15,7 +15,7 @@ title: Download
 Our catalog provides voids with well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need characterization of the density environment.This includes galaxy properties and their evolution, galaxy biasing, supernovae and their use for Hubble constant measurements, and high-energy astrophysics, such as black holes and AGN in voids.
 
 
-<span style="color:white"> Enough text to make the button center: aaaaaaaaa </span>[<span style="font-size: 30px"> Download </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}<span style="color:white"> Enough text to make the button center: aaaaaaaaa </span>
+<span style="color:white"> Enough text to make the button center: aaaaaaa </span>[<span style="font-size: 30px"> Download the data </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}<span style="color:white"> Enough text to make the button center: aaaaaaa </span>
 
 
 <!--
@@ -37,7 +37,7 @@ Maybe in the future
 <br>
 <br>
 
-
+<!--
 ## Contact us
 
 Let us know if you have any question, comment or suggestion!
@@ -49,3 +49,4 @@ Let us know if you have any question, comment or suggestion!
   </textarea>
   <button type="submit">Send Message</button>
 </form>
+-->
