@@ -86,12 +86,7 @@ VoroCloudAll = np.load('Voronoi_cloud_all_voids_N64.npy')```
 
 with ```VoroCloudAll.shape = (262144, 4)```
 
-The information is organized in the same way as the individual clouds, with:
-
-- ```VoroCloudAll[:,:3]``` represent the (x,y,z) coordinates of the grid;
-- ```VoroCloudAll[:, 3]``` represents the value of the Voronoi overlap rate in that position.
-
-To reconstruct the grid:
+The information is organized in the same way as the individual clouds, with the possibility to reconstruct the grid as:
 
 ```
 VoroCloudAll_Grid = np.reshape(VoroCloudAll, (64,64,64,4))
