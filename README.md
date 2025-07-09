@@ -22,7 +22,7 @@ The columns are organized as follows:
 - ```[mean radius (Mpc/h)]```, ```[std radius (Mpc/h)]``` are the mean and standard deviation of the posterior distribution of the void radii;
 - ```[center RA [hms]]```, ```[center RA [deg]]```, ```[center Dec [deg]]``` represent the void's position in the sky, in equatorial coordinates (with right ascension presented in different units);
 - ```[center dist [Mpc/h]]``` is the distance of the void centers from the observer;
-- ```[redshift near]```, ```[redshift center]```, ```[redshift far]``` represent the redshift of the closest edge, the center, and the farthest edge along the line of sight;
+- ```[redshift near]```, ```[redshift center]```, ```[redshift far]``` represent the redshift of the closest edge, the center, and the farthest edge along the line of sight, assuming the effective radius as size;
 - ```[redshift near [km/s]]```, ```[redshift center [km/s]]```, ```[redshift far [km/s]]``` are the same quantities as above, but presented in $\text{km s}^{-1}$.
 
 The simulation box is centered in $[340.5, 340.5, 340.5] \ h^{−1} \ \text{Mpc}$, the xy plane corresponding to the equatorial plane, and the $\hat{z}$ axis pointing to the equatorial North Pole.
@@ -76,7 +76,7 @@ thresholds = np.load('truncation_vs_radius.npy')
 ```
 with ```thresholds.shape = (100)```. The index ```i``` represent 100 times ```th```, e.g. ```thresholds[37]```  gives access to the radius obtained with the 0.37 truncation level.
 
-![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/assets/images/min_Voronoi_rate_vs_radius_with_clouds.png)
+![](https://github.com/RosaMalandrino/LocalVoids/VoronoiClouds/min_Voronoi_rate_vs_radius_with_clouds.png)
 
 
 ## Global Voronoi cloud
