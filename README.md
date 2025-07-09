@@ -76,7 +76,7 @@ thresholds = np.load('truncation_vs_radius.npy')
 ```
 with ```thresholds.shape = (100)```. The index ```i``` represent 100 times ```th```, e.g. ```thresholds[37]```  gives access to the radius obtained with the 0.37 truncation level.
 
-![](https://github.com/RosaMalandrino/LocalVoids/VoronoiClouds/min_Voronoi_rate_vs_radius_with_clouds.png)
+![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/VoronoiClouds/min_Voronoi_rate_vs_radius_with_clouds.png)
 
 
 ## Global Voronoi cloud
