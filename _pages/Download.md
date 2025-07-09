@@ -7,7 +7,6 @@ title: Download
 
 ---
 
-<br>
 
 ## Get the catalog
 
