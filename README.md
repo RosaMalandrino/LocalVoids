@@ -37,14 +37,13 @@ import numpy as np
 VoroClouds = {i:np.load(f'VoronoiClouds/Voronoi_cloud_void_{i}_N32.npy') for i in range(100)}
 ```
 
-Each individual cloud:
+The i-th cloud can be accessed with the corresponding key, e.g. cloud #0:
 
 ```
 VoroCloud = VoroClouds[0]
 VoroCloud.shape
 ```
-((32768, 4))
-
+with ```VoroCloud.shape = (32768, 4)```
 The information is:
 
 - ```VoroCloud[:,:3]``` represent the (x,y,z) coordinates of the grid
@@ -64,9 +63,15 @@ with:
 
 The files contain the full untruncated Voronoi clouds, including the outskirts. We recommend to fix a threshold ```th``` and subsample the cloud as ```VoroCloud[:, 3]>th```.
 
-In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim 80/%$ of the radius, choose ```th = 0.72```.
+In order to conserve the statistical volume of the voids the optimal threshold value is ```th = 0.37```; to select the interior at $\sim 80%$ of the radius, choose ```th = 0.72```.
 
-Find the threshold that works best for you! In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```name``` array, where the index ```i``` represent ```100*th```, and ```v[i]``` the resulting radius ratio.
+Find the threshold that works best for you! In the plot below we present the truncation threshold on the $x$-axis, and the resulting radius of the Voronoi cloud, as a fraction of the statistical radius on the $y$-axis. Try different values of ```th``` to probe different density regimes within the void. The function is presented in the ```truncation_vs_radius.npy``` array:
+
+```
+thresholds = np.load('truncation_vs_radius.npy')
+```
+
+where the index ```i``` represent 100*```th```, and ```threhsolds[i]``` (e.g. ```threhsolds[37] = 1.```)
 
 ![](https://github.com/RosaMalandrino/LocalVoids/blob/gh-pages/assets/images/min_Voronoi_rate_vs_radius_with_clouds.png)]
 
