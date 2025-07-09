@@ -6,15 +6,26 @@ We present the catalog obtained with the method described in [TBD]() and in the 
 
 ## Summary features
 
-The main features of the catalog are summarized in the ```name``` table, organized as follows:
+The main features of the catalog are summarized in the ```voids_catalog.csv``` table. You can use ```pandas``` to read it:
 
-- void ID
-- coordinates mean and std
-- radius mean and std
-- sky coordinates
-- redshift range
+```
+import pandas as pd
+voids_catalog = pd.read_csv('voids_catalog.csv')
+```
 
-This table is a first approximation that can be already used
+The columns are organized as follows:
+
+- ```center x (Mpc/h)```, ```std x (Mpc/h)```, ```center y (Mpc/h)```, ```std y (Mpc/h)```, ```center z (Mpc/h)```, ```std z (Mpc/h)``` are the mean and standard deviation of the posterior distribution of the void positions;
+- ```mean radius (Mpc/h)```, ```std radius (Mpc/h)``` are the mean and standard deviation of the posterior distribution of the void radii;
+- ```center RA [hms]```, ```center RA [deg]```, ```center Dec [deg]``` represent the void's position in the sky, in equatorial coordinates (with right ascension presented in different units);
+- ```center dist [Mpc/h]``` is the distance of the void centers from the observer;
+- ```redshift near```, ```redshift center```, ```redshift far``` represent the redshift of the closest edge, the center, and the farthest edge along the line of sight;
+- ```redshift near [km/s]```, ```redshift center [km/s]```, ```redshift far [km/s]``` are the same quantities as above, but presented in $\text{km s}^{-1}$.
+
+The simulation box is centered in $[340.5, 340.5, 340.5] \, h^{−1} \, \text{Mpc}$, the xy plane corresponding to the equatorial plane, and the $\hat{z}$ axis pointing to the equatorial North Pole.
+The assumed cosmology to convert between $h^{-1} \, \text{Mpc}$ and redshift is: $(\Omega_m, h) = (0.306, 681)$.
+
+This table can be already used as a first approximation of the full void catalog.
 
 ## Shape of voids
 
