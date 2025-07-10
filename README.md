@@ -1,6 +1,6 @@
 # A Bayesian catalog of 100 high-significance voids in the Local Universe
 
-We present the catalog of 100 cosmic voids obtained with the method described in [TBD]() and in the dedicated [website](https://voids.cosmictwin.org).
+We present the catalog of 100 cosmic voids obtained with the method described in [arXiv:2507.06866](https://arxiv.org/pdf/2507.06866) and in the dedicated [website](https://voids.cosmictwin.org).
 
 Produced in the Bayesian framework of the [Manticore project](https://cosmictwin.org), we are able to precisely characterize our Local Neighborhood, producing a void catalog matching real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys.  
 Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment (e.g. galaxy properties and their evolution, galaxy biasing, supernovae, and high-energy astrophysics).
