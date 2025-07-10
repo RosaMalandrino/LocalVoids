@@ -86,7 +86,7 @@ Our probabilistic detection of voids perfectly matches the underlying halo field
 
 * A Bayesian catalog of 100 high-significance voids in the Local Universe <br>
 <b> R. Malandrino, G. Lavaux, B. D. Wandelt, S. McAlpine, J. Jasche </b> <br>
-<i> (in prep.) </i>
+[arXiv:2507.06866](https://arxiv.org/pdf/2507.06866){:target="_blank"}
 
 * The Manticore Project I: a digital twin of our cosmic neighbourhood from Bayesian field-level analysis <br>
 <b> S. McAlpine, J. Jasche, M. Ata, G. Lavaux, R. Stiskalek, C. S. Frenk, A. Jenkins </b> <br>
