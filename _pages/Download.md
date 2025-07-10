@@ -20,8 +20,14 @@ Our voids have well-defined centers, shapes, and boundaries, making the catalog 
 
 <br>
 
-<span style="color:white"> Enough text to make the button center: aaaaaaa </span>[<span style="font-size: 30px"> Download the catalog </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}<span style="color:white"> Enough text to make the button center: aaaaaaa </span>
+$\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,$ [<span style="font-size: 30px"> Download the catalog </span>
+](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}
 
+
+
+<!--
+<span style="color:white"> Enough text to make the button center: aaaaaaa </span>[<span style="font-size: 30px"> Download the catalog </span>](https://github.com/RosaMalandrino/LocalVoids/){: .btn .btn--warning .btn--x-large}{:target="_blank"}{: .align-center}<span style="color:white"> Enough text to make the button center: aaaaaaa </span>
+-->
 
 <!--
 <b> Download the data at the following [link](https://github.com/RosaMalandrino/LocalVoids/){:target="_blank"}, where we provide all the information on how to use it. </b>
