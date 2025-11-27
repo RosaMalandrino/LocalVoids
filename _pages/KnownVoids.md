@@ -11,14 +11,14 @@ title: Comparison with the literature
 
 ## How do our voids compare with other accounts in the literature?
 
-Comparing our catalog to the known voids that have been historically identified by astronomers with observational methods is a non-trivial task: voids not only subtend great angles in the sky, but they are also interconnected, making their centers and boundaries not well defined.
+Comparing our catalog to the known voids that have been historically identified by astronomers with observational methods is a non-trivial task: nearby voids not only subtend great angles in the sky, but they are also interconnected, making their centers and boundaries not well defined.
 We carry out a qualitative comparison with previous works.
 
 
 
 ## Cosmicflows-3
 
-[Tully et al. (2019)](https://iopscience.iop.org/article/10.3847/1538-4357/ab2597){:target="_blank"} have characterized the shape and interplay of voids, by analyzing the velocities of the surrounding galaxies to reconstruct the underlying density field, using the <i>Cosmicflows-3</i> dataset.
+[Tully et al. (2019)](https://iopscience.iop.org/article/10.3847/1538-4357/ab2597){:target="_blank"} characterized the shape and interplay of voids, by analyzing the velocities of the surrounding galaxies to reconstruct the underlying density field, using the <i>Cosmicflows-3</i> dataset.
 We compare with the 25 local minima they identify, classified as part of the Local void, the Hercules void, the Sculptor void, and the Eridanus void. 
 
 The first two columns define the underdense regions identified by the authors, while columns 3-5 indicate their coordinates in supergalactic coordinates. Columns 6-8 are the result of the transformation in our coordinate system, with the observer located at $[340.5, 340.5, 340.5] \, h^{−1} \, \text{Mpc}$, the xy plane corresponding to the equatorial plane, and the $\hat{z}$ axis pointing to the equatorial North Pole. The last two columns report the best matching void of our catalog and the value of the Voronoi cloud in that location.
@@ -60,7 +60,7 @@ The void names link to a visual representation of the comparisons, with points f
 
 ## The Local Void
 
-The Local Void is hard to characterize, as it partially lies behind the galactic plane and subtends a big portion of the sky due to its vicinity. Different works define different positions and size: we compare with a few accounts in the literature. The ranges defined in these works partially overlap with our voids, as shown in the last column.
+The Local Void is hard to characterize, as it partially lies behind the galactic plane and subtends a big portion of the sky due to its vicinity. Different works define different positions and sizes: we compare with a few accounts in the literature. The ranges defined in these works partially overlap with some of the voids in our catalog.
 
 
 
