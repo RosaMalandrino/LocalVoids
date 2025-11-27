@@ -21,7 +21,7 @@ header:
 
 
 We present a new method to identify cosmic voids in the Local Universe from galaxy surveys, and to assess their statistical significance.
-Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, as opposed to artifacts of the galaxy surveys. 
+Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, without contaminations from spurious voids emerging in the galaxy surveys. 
 Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment. The Bayesian nature of this framework provides us with a rigorous estimation of statistical uncertainties, producing high-quality data products for the community. <br>
 
 Click [here](AllVoids/AllVoidsVoronoiCloud.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of our catalog!
@@ -54,7 +54,7 @@ Our method allows to bypass some of the challenges of direct detection of voids 
 
 
 
-## Precise characterization of void morphology and its relationship with the environment
+## Well-defined void morphologies and their relationship with the environment
 
 Understanding the complex morphology of voids is crucial to study many astrophysical objects whose properties depend on the density environment.
 We provide a full description of the void shape in terms of a function we name Voronoi cloud, where higher values correspond the to innermost part of voids. A more detailed description can be found in the [Method](_pages/Method.md){:target="_blank"} section. **You can zoom in and move the void around!**
