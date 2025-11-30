@@ -21,7 +21,7 @@ header:
 
 
 We present a new method to identify cosmic voids in the Local Universe from galaxy surveys, and to assess their statistical significance.
-Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, without contaminations from spurious voids emerging in the galaxy surveys. 
+Leveraging the state-of-the-art Bayesian reconstructions of the Universe from the [Manticore project](https://cosmictwin.org){:target="_blank"}, we are able to precisely characterize our Local Neighborhood, producing a catalog of 100 voids matching real structures in the dark matter distribution, without contaminations from spurious voids that often occur in galaxy surveys. 
 Our voids have well-defined centers, shapes, and boundaries, making the catalog practical to use for all applications that need precise characterization of the density environment. The Bayesian nature of this framework provides us with a rigorous estimation of statistical uncertainties, producing high-quality data products for the community. <br>
 
 Click [here](AllVoids/AllVoidsVoronoiCloud.html){:target="_blank"} to explore the voids in the <b>interactive</b> version of our catalog!
